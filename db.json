@@ -1,0 +1,11 @@
+{
+    "player": [{
+        "id": 1,
+        "name": "Scarlet",
+        "description": "Hello World"
+    }, {
+        "id": 2,
+        "name": "AiBo",
+        "description": "Motorola"
+    }]
+}
