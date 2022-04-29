@@ -1,0 +1,17 @@
+{
+    "name": "JSON-Server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lebrancconvas/JSON-Server.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "json-server": "^0.17.0",
+        "nodemon": "^2.0.16"
+    },
+    "scripts": {
+        "start": "json-server --watch db.json",
+        "dev": "nodemon src/app.js"
+    }
+}
